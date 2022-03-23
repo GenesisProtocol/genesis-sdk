@@ -1,8 +1,9 @@
 import JSBI from 'jsbi'
+import { getAddress } from '@genesisprotocol/helpers'
 
-export const FACTORY_ADDRESS = '0x373Df4Ea54035326A47Bb4A6098EDf683EBa1804'
+export const FACTORY_ADDRESS = getAddress({ chain: 43113, name: 'GENESIS_FACTORY' })
 
-export const INIT_CODE_HASH = '0x4dbdc37154496a29d1134352f2c75d85759d7d20f86c63f16083ab8686476c45'
+export const INIT_CODE_HASH = '0x185a834c78e41dfb603da7ba94d162c759a17ed351382bfdcd6dd160bee64bd7'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
