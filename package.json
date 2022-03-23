@@ -1,18 +1,13 @@
 {
   "name": "@genesisprotocol/sdk",
   "license": "MIT",
-  "version": "3.0.13",
-  "description": "🛠  An SDK for building applications on top o fGenesis",
+  "version": "3.0.14",
+  "description": "🛠  An SDK for building applications on topof Genesis",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "repository": "https://github.com/Uniswap/uniswap-v2-sdk.git",
-  "keywords": [
-    "uniswap",
-    "ethereum"
-  ],
+  "keywords": ["uniswap", "ethereum"],
   "module": "dist/v2-sdk.esm.js",
   "scripts": {
     "lint": "tsdx lint src test",
